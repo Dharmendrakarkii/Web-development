@@ -1,0 +1,20 @@
+.red{
+    color: rgb(165, 42, 42);
+    
+    }
+
+#firstdiv{
+    background-color: rgb(46, 203, 151);
+}
+.blue{
+    color: blue;
+}
+#seconddiv{
+    background-color: rgb(219, 106, 190);
+}
+.yellow{
+    color: rgb(127, 223, 230);
+}
+#thirdspan{
+    background-color: blueviolet;
+}
