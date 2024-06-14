@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element selector  */
+        div{
+            /* background-color: blueviolet; */
+        }
+        /* class selector */
+        .blueviolet{
+            background-color: brown;
+        }
+        /* Id selector */
+        #green{
+            background-color: aqua;
+        }
+          /* child selector */
+          div p {
+            color: antiquewhite;
+            background-color: rgb(75, 165, 42);
+          }
+             /* Decendent selector */
+             div p {
+            color: rgb(37, 233, 53);
+            background-color: rgb(165, 122, 42);
+          }
+          /* Universal selector */
+          *{
+            margin: 0;
+            padding: 0;
+          }
+          /* Pseudo selector */
+          a :visited{
+            color: rgb(99, 221, 23);
+          }
+          a :link{
+            color: rgb(122, 15, 58);
+          }
+          a:active{
+            background-color: brown;
+          }
+          a:hover{
+            background-color: rgb(101, 101, 177);
+          }
+
+    </style>
+</head>
+<body>
+    <div class="blueviolet">
+     I am a content creator
+     <article>
+     <p>I am a passionate student</p>
+    </article>
+    </div>
+    <div id="green">
+        I am a developer
+    </div>
+    <a href="https://www.Instagram.com">Instagram</a>
+    <a href="https://www.google.com">google</a>
+    <a href="https://www.facebook2.com">facebook</a>
+</body>
+</html>
