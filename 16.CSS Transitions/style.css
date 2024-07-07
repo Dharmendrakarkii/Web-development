@@ -1,0 +1,22 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(193, 221, 138);
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps();
+    transition-delay: 1s; */
+    transition: all 2s steps() 1s;
+
+}
+div:hover{
+    background-color: aqua;
+    transition-duration: 2s;
+    color: rgb(95, 218, 126);
+    font-size: 20px;
+
+}
+div:active {
+    background-color: violet;
+    color: firebrick;
+}

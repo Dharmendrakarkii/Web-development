@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(193, 221, 138);
+    border: 2px solid black;
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    transition: all 2s ease-in;
+   
+}
+div:hover{
+    /* background-color: aqua;
+    transition-duration: 2s;
+    color: rgb(95, 218, 126);
+    font-size: 20px; */
+    /* transform: scaleY(2);
+    transform: rotate(45deg); */
+    /* transform: translateX(100px); */
+    transform: skew(90deg);
+
+}
+div:active {
+    background-color: violet;
+    color: firebrick;
+}
